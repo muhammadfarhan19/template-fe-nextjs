@@ -7,7 +7,7 @@ import type { NextRequest } from 'next/server'
 export const publicRoutes = ['/login', '/register']
 
 /** Routes that require authentication */
-export const protectedRoutes = ['/dashboard', '/admin', '/profile', '/settings']
+export const protectedRoutes = ['/admin', '/profile', '/settings']
 
 /**
  * Routes that require specific roles.
